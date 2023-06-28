@@ -1,0 +1,19 @@
+{
+  "name": "poc_2_k6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "convertSwaggerToK6": "npx cross-env openapi-generator-cli generate -i swagger.json  -g k6 -o ./",
+    "convertPostmanCollectionToK6": "postman-to-k6 postman_collection.json -o k6-script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "k6": "^0.0.0"
+  },
+  "devDependencies": {
+    "@apideck/postman-to-k6": "^1.8.6",
+    "@openapitools/openapi-generator-cli": "^2.5.2"
+  }
+}

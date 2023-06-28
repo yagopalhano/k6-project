@@ -1,0 +1,20 @@
+{
+  "SETTINGS": {
+    "baseUrlAutocaptura": "https://api.com.br",
+    "baseUrlAuth": "https://auth.com.br",
+    "client_secret": "",
+    "cookie": "",
+    "authorization": "Bearer "
+  },
+  "ENVIRONMENT": {
+    "execution": "hlg",
+    "optionsSet": "smoke"
+  },
+  "TEST_FILTERS": {
+    "enabled": false,
+    "startsWith": null,
+    "endsWith": null,
+    "contains": null,
+    "regex": null
+  }
+}

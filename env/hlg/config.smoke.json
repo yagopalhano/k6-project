@@ -1,0 +1,16 @@
+{
+  "vus": 1,
+  "duration": "10s",
+  "tags": {
+    "name": "Smoke Test - HLG"
+  },
+  "thresholds": {
+    "http_req_duration": [
+      {
+        "threshold": "p(99) < 200",
+        "abortOnFail": true,
+        "delayAbortEval": "10s"
+      }
+    ]
+  }
+}
